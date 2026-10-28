@@ -89,7 +89,7 @@ export const GlobalProvider = ({ children }: { children: React.ReactNode }) => {
 //change gsURL according to the environment you want to use, "https://zwmsapi.condor.dz" or "https://mespdamobile.condor.dz/WMSPDANEW" or "http://
 
  //const [gsURL, _setgsgsURL] = useState("https://zwmsapi.condor.dz"); 
-const [gsURL, _setgsgsURL] = useState("https://mespdamobile.condor.dz/WMSPDANEW");   
+   const [gsURL, _setgsgsURL] = useState("https://mespdamobile.condor.dz/WMSPDANEW");   
   //const [gsURL, _setgsgsURL] = useState("http://192.168.100.24:7278"); 
 
   // BaseSignInfo
